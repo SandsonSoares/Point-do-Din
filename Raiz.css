@@ -42,12 +42,11 @@ header {
     height: 350px;
     width: 100%;
     overflow: hidden;
-
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.594);
 }
 
 .shadow-top {
     position: relative;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.594);
 }
 
 .carrosel {
@@ -171,9 +170,80 @@ header {
     margin: 80px auto;
 }
 
+.banner{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 80px;
+
+}
+.flair{
+    width: 350px;
+    height: 200px;
+    background-color: var(--vermelho);
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.534);
+}
+.flair h3{
+    font-size: 1.3em;
+    font-weight: 400;
+    font-family: var(--corpo);
+}
+.cartaz{
+    height: 75%;
+    width: 100%;
+    object-fit: cover;
+}
+.buttom{
+    background-color: var(--amarelo);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: inset -1px -1px 3px rgba(0, 0, 0, 0.572);
+    transition: all 80ms;
+}
+.buttom:active{
+    padding: 4px;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.572);
+}
+.rodape{
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+}
+.center{
+    margin: auto;
+}
+.enunciado{
+    color: var(--vermelho);
+    text-shadow: -2px -1px 2px rgba(0, 0, 0, 0.342);
+    margin-bottom: 20px;
+}
+.enunciado h1{
+    font-size: 2em;
+    text-align: center;
+}
+.enunciado h3{
+    font-size: 1.2em;
+    text-align: center;
+}
+
 .volume {
     color: white;
-    background-color: black;
+    background-image: url(https://img.freepik.com/vetores-premium/padrao-sem-emenda-de-fast-food-com_202271-545.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
     padding: 50px;
     display: flex;
     flex-direction: row;
