@@ -37,7 +37,12 @@ a {
 .interno {
     color: white;
 }
+.top-border {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
 header{
+    transition: all 222ms;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.594);
 }
 .shadow-top {
@@ -135,11 +140,12 @@ header{
     margin: 0;
 }
 
-.hotbar {
+.menu {
     background-color: var(--vermelho);
     height: 50px;
     font-size: 1.5em;
     padding-left: 20px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -149,17 +155,30 @@ header{
 
 }
 
-.hotbar ul {
+.menu ul {
+
     list-style: none;
 }
-
-.hotbar a {
+.menu li{
+    display: inline-block;
+    margin-right: 15px;
+}
+.menu a {
     color: white;
     transition: all 333ms;
 }
 
-.hotbar a:hover {
+.menu a:hover {
     border-bottom: 7px solid var(--amarelo);
+}
+@media (max-width: 600px){
+    .menu{
+        font-size: 1.2em;
+    }
+}
+.Fixo{
+    position: fixed;
+    top: 0;
 }
 
 /*----------------------------------------------*/
@@ -179,11 +198,11 @@ header{
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 80px;
-    border: 5px solid #772525;
+
 }
 .flair{
     width: 350px;
-    height: 200px;
+    height: 220px;
     background-color: var(--vermelho);
     color: white;
     border-radius: 15px;
@@ -195,7 +214,7 @@ header{
     font-family: var(--corpo);
 }
 .flair h2 {
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 .cartaz{
     height: 75%;
@@ -296,10 +315,6 @@ header{
     padding: 4px;
 }
 
-.top-border {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
 
 #image {
     height: 100%;

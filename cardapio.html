@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,31 +9,51 @@
     <link rel="stylesheet" href="Raiz.css">
     <link rel="stylesheet" href="leaf.css">
     <link rel="shortcut icon" href="logo-zero.png" type="image/x-icon">
+    <script src="interacao.js"></script>
 </head>
-<body>
+
+<body onscroll="fixar()">
     <header>
         <section class="cardapio-topo">
-            <img src="" alt="Point do Din" class="logo">
+            <img src="logo-zero.png" alt="Point do Din" class="logo">
             <h1 style="color: white;">Point do Din</h1>
         </section>
+        <nav class="menu">
+            <ul>
+                <li><a href="#hamburguer">Hamburguers</a></li>
+                <li><a href="#combos">Combos</a></li>
+                <li><a href="#acompa">Acompanhamentos</a></li>
+                
+            </ul>
+        </nav>
     </header>
-    <nav class="hotbar">
-        <ul>
-            <li><a href="#hamburguer">Final</a></li>
-        </ul>
-    </nav>
-    
+
+
     <main class="content">
 
-                <!-- PROMOÇÕES -->
+        <!-- PROMOÇÕES -->
 
         <article class="enunciado">
             <h1>Promoção do dia!</h1>
         </article>
         <section class="banner">
+
+
             <div class="flair">
-                <div class="top-div top-border">
-                    <img src="" alt="Hamburguer">
+                <div class="descricao">
+                    <div class="sombra">
+                        <ul>
+                            <li>X-tudo</li>
+                            <li>Porção de batata PP</li>
+                            <li>Ykó</li>
+                        </ul>
+                        <div class="info">
+                            &lt;
+                        </div>
+                    </div>
+                </div>
+                <div class="top-div">
+                    <img src="https://conteudo.imguol.com.br/c/entretenimento/8c/2018/04/18/fast-food-lanche-1524056858988_v2_450x450.jpg" alt="Hamburguer" class="top-border">
                 </div>
                 <div class="controle">
                     <div class="texto">
@@ -44,9 +65,23 @@
                     </div>
                 </div>
             </div>
+
+
             <div class="flair">
+                <div class="descricao">
+                    <div class="sombra">
+                        <ul>
+                            <li>X-tudo</li>
+                            <li>Porção de batata PP</li>
+                            <li>Moranco ao leite (500ml)</li>
+                        </ul>
+                        <div class="info">
+                            &lt;
+                        </div>
+                    </div>
+                </div>
                 <div class="top-div top-border">
-                    <img src="" alt="Hamburguer">
+                    <img src="https://www.jornaldafranca.com.br/wp-content/uploads/2022/04/pedido-ifood.jpg" alt="Hamburguer" class="top-border">
                 </div>
                 <div class="controle">
                     <div class="texto">
@@ -58,6 +93,8 @@
                     </div>
                 </div>
             </div>
+
+
             <div class="flair">
                 <div class="top-div top-border">
                     <img src="" alt="Hamburguer">
@@ -72,6 +109,8 @@
                     </div>
                 </div>
             </div>
+
+
             <div class="flair">
                 <div class="top-div top-border">
                     <img src="" alt="Hamburguer">
@@ -86,6 +125,8 @@
                     </div>
                 </div>
             </div>
+
+
             <div class="flair">
                 <div class="top-div top-border">
                     <img src="" alt="Hamburguer">
@@ -102,204 +143,362 @@
             </div>
         </section>
 
-            <!-- HAMBURGUERS -->
+        <!-- HAMBURGUERS -->
 
-            <article class="enunciado">
-                <h1 id="hamburguer">Hamburguers</h1>
-            </article>
-            <section class="banner">
-                <div class="flair">
-                    <div class="top-div top-border">
-                        <img src="" alt="Hamburguer">
+        <article class="enunciado">
+            <h1 id="hamburguer">Hamburguers</h1>
+        </article>
+        <section class="banner">
+            <div class="flair">
+                <div class="top-div top-border">
+                    <img src="" alt="Hamburguer">
+                </div>
+                <div class="controle">
+                    <div class="texto">
+                        <h2>Hamburguer simples</h2>
                     </div>
-                    <div class="controle">
-                        <div class="texto">
-                            <h2>Hamburguer simples</h2>
-                        </div>
-                        <div class="botoes">
-                            <div class="info"> i </div>
-                            <div><a href="#" class="buttom">R$ 15,00</a></div>
-                        </div>
+                    <div class="botoes">
+                        <div class="info"> i </div>
+                        <div><a href="#" class="buttom">R$ 15,00</a></div>
                     </div>
                 </div>
-                <div class="flair">
-                    <div class="top-div top-border">
-                        <img src="" alt="Hamburguer">
+            </div>
+            <div class="flair">
+                <div class="top-div top-border">
+                    <img src="" alt="Hamburguer">
+                </div>
+                <div class="controle">
+                    <div class="texto">
+                        <h2>X-EGG</h2>
                     </div>
-                    <div class="controle">
-                        <div class="texto">
-                            <h2>X-EGG</h2>
-                        </div>
-                        <div class="botoes">
-                            <div class="info"> i </div>
-                            <div><a href="#" class="buttom">R$ 15,00</a></div>
-                        </div>
+                    <div class="botoes">
+                        <div class="info"> i </div>
+                        <div><a href="#" class="buttom">R$ 15,00</a></div>
                     </div>
                 </div>
-                <div class="flair">
-                    <div class="top-div top-border">
-                        <img src="" alt="Hamburguer">
+            </div>
+            <div class="flair">
+                <div class="top-div top-border">
+                    <img src="" alt="Hamburguer">
+                </div>
+                <div class="controle">
+                    <div class="texto">
+                        <h2>x-calabresa</h2>
                     </div>
-                    <div class="controle">
-                        <div class="texto">
-                            <h2>x-calabresa</h2>
-                        </div>
-                        <div class="botoes">
-                            <div class="info"> i </div>
-                            <div><a href="#" class="buttom">R$ 15,00</a></div>
-                        </div>
+                    <div class="botoes">
+                        <div class="info"> i </div>
+                        <div><a href="#" class="buttom">R$ 15,00</a></div>
                     </div>
                 </div>
-                <div class="flair">
-                    <div class="top-div top-border">
-                        <img src="" alt="Hamburguer">
+            </div>
+            <div class="flair">
+                <div class="top-div top-border">
+                    <img src="" alt="Hamburguer">
+                </div>
+                <div class="controle">
+                    <div class="texto">
+                        <h2>x-bacon</h2>
                     </div>
-                    <div class="controle">
-                        <div class="texto">
-                            <h2>x-bacon</h2>
-                        </div>
-                        <div class="botoes">
-                            <div class="info"> i </div>
-                            <div><a href="#" class="buttom">R$ 15,00</a></div>
-                        </div>
+                    <div class="botoes">
+                        <div class="info"> i </div>
+                        <div><a href="#" class="buttom">R$ 15,00</a></div>
                     </div>
                 </div>
-                <div class="flair">
-                    <div class="top-div top-border">
-                        <img src="" alt="Hamburguer">
+            </div>
+            <div class="flair">
+                <div class="top-div top-border">
+                    <img src="" alt="Hamburguer">
+                </div>
+                <div class="controle">
+                    <div class="texto">
+                        <h2>x-tudo</h2>
                     </div>
-                    <div class="controle">
-                        <div class="texto">
-                            <h2>x-tudo</h2>
-                        </div>
-                        <div class="botoes">
-                            <div class="info"> i </div>
-                            <div><a href="#" class="buttom">R$ 15,00</a></div>
-                        </div>
+                    <div class="botoes">
+                        <div class="info"> i </div>
+                        <div><a href="#" class="buttom">R$ 15,00</a></div>
                     </div>
                 </div>
-                <div class="flair">
-                    <div class="top-div top-border">
-                        <img src="" alt="Hamburguer">
+            </div>
+            <div class="flair">
+                <div class="top-div top-border">
+                    <img src="" alt="Hamburguer">
+                </div>
+                <div class="controle">
+                    <div class="texto">
+                        <h2>x-duplo</h2>
                     </div>
-                    <div class="controle">
-                        <div class="texto">
-                            <h2>x-duplo</h2>
-                        </div>
-                        <div class="botoes">
-                            <div class="info"> i </div>
-                            <div><a href="#" class="buttom">R$ 15,00</a></div>
-                        </div>
+                    <div class="botoes">
+                        <div class="info"> i </div>
+                        <div><a href="#" class="buttom">R$ 15,00</a></div>
                     </div>
                 </div>
-                <div class="flair">
-                    <div class="top-div top-border">
-                        <img src="" alt="Hamburguer">
+            </div>
+            <div class="flair">
+                <div class="top-div top-border">
+                    <img src="" alt="Hamburguer">
+                </div>
+                <div class="controle">
+                    <div class="texto">
+                        <h2>x-Quádruplo</h2>
                     </div>
-                    <div class="controle">
-                        <div class="texto">
-                            <h2>x-Quádruplo</h2>
-                        </div>
-                        <div class="botoes">
-                            <div class="info"> i </div>
-                            <div><a href="#" class="buttom">R$ 15,00</a></div>
-                        </div>
+                    <div class="botoes">
+                        <div class="info"> i </div>
+                        <div><a href="#" class="buttom">R$ 15,00</a></div>
                     </div>
                 </div>
-                <div class="flair">
-                    <div class="top-div top-border">
-                        <img src="" alt="Hamburguer">
+            </div>
+            <div class="flair">
+                <div class="top-div top-border">
+                    <img src="" alt="Hamburguer">
+                </div>
+                <div class="controle">
+                    <div class="texto">
+                        <h2>x-chicken</h2>
                     </div>
-                    <div class="controle">
-                        <div class="texto">
-                            <h2>x-chicken</h2>
-                        </div>
-                        <div class="botoes">
-                            <div class="info"> i </div>
-                            <div><a href="#" class="buttom">R$ 15,00</a></div>
-                        </div>
+                    <div class="botoes">
+                        <div class="info"> i </div>
+                        <div><a href="#" class="buttom">R$ 15,00</a></div>
                     </div>
                 </div>
-                <div class="flair">
-                    <div class="top-div top-border">
-                        <img src="" alt="Hamburguer">
+            </div>
+            <div class="flair">
+                <div class="top-div top-border">
+                    <img src="" alt="Hamburguer">
+                </div>
+                <div class="controle">
+                    <div class="texto">
+                        <h2>x-tudo</h2>
                     </div>
-                    <div class="controle">
-                        <div class="texto">
-                            <h2>x-tudo</h2>
-                        </div>
-                        <div class="botoes">
-                            <div class="info"> i </div>
-                            <div><a href="#" class="buttom">R$ 15,00</a></div>
-                        </div>
+                    <div class="botoes">
+                        <div class="info"> i </div>
+                        <div><a href="#" class="buttom">R$ 15,00</a></div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!-- COMBOS -->
+        <!-- COMBOS -->
 
-            <article class="enunciado">
-                <h1 id="hamburguer">Combos</h1>
-            </article>
-            <section class="banner">
-                <div class="flair">
-                    <div class="top-div top-border">
-                        <img src="" alt="Hamburguer">
+        <article class="enunciado">
+            <h1 id="combos">Combos</h1>
+        </article>
+        <section class="banner">
+            <div class="flair">
+                <div class="top-div top-border">
+                    <img src="" alt="Hamburguer">
+                </div>
+                <div class="controle">
+                    <div class="texto">
+                        <h2>Combo 1</h2>
                     </div>
-                    <div class="controle">
-                        <div class="texto">
-                            <h2>Combo 1</h2>
-                        </div>
-                        <div class="botoes">
-                            <div class="info"> i </div>
-                            <div><a href="#" class="buttom">R$ 15,00</a></div>
-                        </div>
+                    <div class="botoes">
+                        <div class="info"> i </div>
+                        <div><a href="#" class="buttom">R$ 15,00</a></div>
                     </div>
                 </div>
-                <div class="flair">
-                    <div class="top-div top-border">
-                        <img src="" alt="Hamburguer">
+            </div>
+            <div class="flair">
+                <div class="top-div top-border">
+                    <img src="" alt="Hamburguer">
+                </div>
+                <div class="controle">
+                    <div class="texto">
+                        <h2>combo 2</h2>
                     </div>
-                    <div class="controle">
-                        <div class="texto">
-                            <h2>combo 2</h2>
-                        </div>
-                        <div class="botoes">
-                            <div class="info"> i </div>
-                            <div><a href="#" class="buttom">R$ 15,00</a></div>
-                        </div>
+                    <div class="botoes">
+                        <div class="info"> i </div>
+                        <div><a href="#" class="buttom">R$ 15,00</a></div>
                     </div>
                 </div>
-                <div class="flair">
-                    <div class="top-div top-border">
-                        <img src="" alt="Hamburguer">
+            </div>
+            <div class="flair">
+                <div class="top-div top-border">
+                    <img src="" alt="Hamburguer">
+                </div>
+                <div class="controle">
+                    <div class="texto">
+                        <h2>combo 3</h2>
                     </div>
-                    <div class="controle">
-                        <div class="texto">
-                            <h2>combo 3</h2>
-                        </div>
-                        <div class="botoes">
-                            <div class="info"> i </div>
-                            <div><a href="#" class="buttom">R$ 15,00</a></div>
-                        </div>
+                    <div class="botoes">
+                        <div class="info"> i </div>
+                        <div><a href="#" class="buttom">R$ 15,00</a></div>
                     </div>
                 </div>
-                <div class="flair">
-                    <div class="top-div top-border">
-                        <img src="" alt="Hamburguer">
+            </div>
+            <div class="flair">
+                <div class="top-div top-border">
+                    <img src="" alt="Hamburguer">
+                </div>
+                <div class="controle">
+                    <div class="texto">
+                        <h2>combo 4</h2>
                     </div>
-                    <div class="controle">
-                        <div class="texto">
-                            <h2>combo 4</h2>
-                        </div>
-                        <div class="botoes">
-                            <div class="info"> i </div>
-                            <div><a href="#" class="buttom">R$ 15,00</a></div>
-                        </div>
+                    <div class="botoes">
+                        <div class="info"> i </div>
+                        <div><a href="#" class="buttom">R$ 15,00</a></div>
                     </div>
                 </div>
-                
-            </section>
+            </div>
+
+        </section>
+
+        <!-- ACOMPANHAMENTOS -->
+
+        <article class="enunciado">
+            <h1 id="acompa">Acompanhamentos</h1>
+        </article>
+        <section class="banner">
+            <div class="flair">
+                <div class="top-div top-border">
+                    <img src="" alt="Hamburguer">
+                </div>
+                <div class="controle">
+                    <div class="texto">
+                        <h2>Batata p</h2>
+                    </div>
+                    <div class="botoes">
+                        <div class="info"> i </div>
+                        <div><a href="#" class="buttom">R$ 15,00</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="flair">
+                <div class="top-div top-border">
+                    <img src="" alt="Hamburguer">
+                </div>
+                <div class="controle">
+                    <div class="texto">
+                        <h2>Batata m</h2>
+                    </div>
+                    <div class="botoes">
+                        <div class="info"> i </div>
+                        <div><a href="#" class="buttom">R$ 15,00</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="flair">
+                <div class="top-div top-border">
+                    <img src="" alt="Hamburguer">
+                </div>
+                <div class="controle">
+                    <div class="texto">
+                        <h2>Batata g</h2>
+                    </div>
+                    <div class="botoes">
+                        <div class="info"> i </div>
+                        <div><a href="#" class="buttom">R$ 15,00</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="flair">
+                <div class="top-div top-border">
+                    <img src="" alt="Hamburguer">
+                </div>
+                <div class="controle">
+                    <div class="texto">
+                        <h2>Batata gg</h2>
+                    </div>
+                    <div class="botoes">
+                        <div class="info"> i </div>
+                        <div><a href="#" class="buttom">R$ 15,00</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="flair">
+                <div class="top-div top-border">
+                    <img src="" alt="Hamburguer">
+                </div>
+                <div class="controle">
+                    <div class="texto">
+                        <h2>Brotinho + Yko</h2>
+                    </div>
+                    <div class="botoes">
+                        <div class="info"> i </div>
+                        <div><a href="#" class="buttom">R$ 15,00</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="flair">
+                <div class="top-div top-border">
+                    <img src="" alt="Hamburguer">
+                </div>
+                <div class="controle">
+                    <div class="texto">
+                        <h2>Porção de salgado</h2>
+                    </div>
+                    <div class="botoes">
+                        <div class="info"> i </div>
+                        <div><a href="#" class="buttom">R$ 15,00</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="flair">
+                <div class="top-div top-border">
+                    <img src="" alt="Hamburguer">
+                </div>
+                <div class="controle">
+                    <div class="texto">
+                        <h2>Anel de cebola</h2>
+                    </div>
+                    <div class="botoes">
+                        <div class="info"> i </div>
+                        <div><a href="#" class="buttom">R$ 15,00</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOBREMESAS -->
+
+        <article class="enunciado">
+            <h1>Sobremesas</h1>
+        </article>
+        <section class="banner">
+            <div class="flair">
+                <div class="top-div top-border">
+                    <img src="" alt="Hamburguer">
+                </div>
+                <div class="controle">
+                    <div class="texto">
+                        <h2>Batata p</h2>
+                    </div>
+                    <div class="botoes">
+                        <div class="info"> i </div>
+                        <div><a href="#" class="buttom">R$ 15,00</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+        <!-- RODAPE -->
+
+        <footer>
+            <section class="credito">
+                <div class="referencias">
+                    <h3>Estabalecimento gerido por</h3>
+                    <p><a href="#">Gerson Vianna</a></p>
+                    <p><a href="#">Lohane</a></p>
+                </div>
+                <div class="desenvolvido">
+                    <h3>Site Desenvolvido por <a href="#">SandsonSoares</a></h3>
+                </div>
+            </section>
+        </footer>
+
+    <!-- Fixar menu no topo -->
+    <script>
+        function fixar() {
+            var nav = document.getElementsByClassName("menu")[0]
+            var navtop = nav.offsetTop
+            if (window.pageYOffset > navtop) {
+                nav.classList.add("Fixo")
+            }
+            else {
+
+                nav.classList.remove("Fixo")
+            }
+        }
+    </script>
 </body>
+
 </html>
