@@ -237,6 +237,12 @@ header {
     font-size: 1.2em;
     text-align: center;
 }
+@media (max-width: 420px) {
+    .enunciado h1{
+        font-size: 1.5em;
+    }
+}
+
 
 .volume {
     color: white;
@@ -251,7 +257,7 @@ header {
     justify-content: center;
     align-items: center;
     align-content: center;
-    min-height: none;
+    min-height: 500px;
     max-height: 1000px;
     box-shadow: 0 0 10px black;
 }
