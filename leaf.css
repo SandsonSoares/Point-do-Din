@@ -22,24 +22,51 @@
 /*----------------------------------*/
 
 .descricao{
-    background-image: url(https://conteudo.imguol.com.br/c/entretenimento/8c/2018/04/18/fast-food-lanche-1524056858988_v2_450x450.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
     width: 100%;
     height: 100%;
     border-radius: 15px;
     display: none;
+    padding: 5px;
+}
+#promocao{
+    background-image: url(https://emc.acidadeon.com/dbimagens/lanches_como_790x505_06032018153232.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#burgao{
+    background-image: url(https://classic.exame.com/wp-content/uploads/2020/05/mafe-studio-LV2p9Utbkbw-unsplash-1.jpg?quality=70&strip=info&w=1024);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#conjunto{
+    background-image: url(https://vejasp.abril.com.br/wp-content/uploads/2020/07/Combo-NYC-para-4-com-Stella_Z-DELI_Lucas-Terribili-10.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#batata{
+    background-image: url(https://p0.pikist.com/photos/464/319/onion-rings-french-fries-dips.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#doces{
+    background-image: url(https://www.receiteria.com.br/wp-content/uploads/receitas-de-sobremesas.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 .sombra{
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 100%;
-    background-color: #0000005b;
+    background-color: #00000069;
     border-radius: 15px;
+}
+.lista{
+    list-style: inside;
+    columns: 2;
 }
 
 .top-div{
